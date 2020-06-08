@@ -91,3 +91,13 @@ bash evalen2de.sh $SAVEDIR $GPUID
 |Mix        | 26.06     | 28.11     |
 |Ours       | 27.58     | 30.33     |
 
+## Reference
+
+```
+@inproceedings{jiang2020multi,
+  title={Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing},
+  author = {Jiang, Haoming and Liang, Chen and Wang, Chong and Zhao, Tuo}, 
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, 
+  year = 2020, 
+}
+```
