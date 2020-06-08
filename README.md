@@ -2,13 +2,13 @@
 This repo contains our code and pre-processed distantly/weakly labeled data for paper 
 [Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing](https://arxiv.org/pdf/1911.02692.pdf)
 
-#### Test Environment
+## Test Environment
 
 - GPU: 1080Ti
 - System: RedHat
 - fairseq: see submodule
 
-#### Data Preprocessing
+## Data Preprocessing
 
 ```bash
 cd dataset
@@ -25,7 +25,7 @@ python multidata_preprocess.py --source-lang en --target-lang de \
   --destdir data-bin/mixed --thresholdtgt 0 --thresholdsrc 0
 ```
 
-#### Training
+## Training
 
 ```bash
 SAVEDIR=checkpoints/NEWS
