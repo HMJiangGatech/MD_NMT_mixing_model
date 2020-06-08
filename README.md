@@ -85,8 +85,8 @@ bash evalen2de.sh $SAVEDIR $GPUID
 
 |           | NEWS      |  TED      |
 |-----------|-----------|-----------|
-|NEWS naive | | |
+|NEWS naive | 26.09     | 6.15      |
 |TED naive  | 4.90      | 29.09     |
-|Mix        | | |
-|Ours       | | | 
+|Mix        | 26.06     | 28.11     |
+|Ours       | 27.58     | 30.33     |
 
