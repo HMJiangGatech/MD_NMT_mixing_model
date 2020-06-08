@@ -76,16 +76,12 @@ CUDA_VISIBLE_DEVICES=0 python main.py data-bin/mixed \
   --task translation_da
 ```
 
-## Average 10 latest checkpoints:
-
-```
-python fairseq/scripts/average_checkpoints.py --inputs $SAVEDIR \
-   --num-epoch-checkpoints 10 --output $SAVEDIR/model.pt
-```
-
-##
-
 ## Evaluation
+
+```
+GPUID=0
+bash evalen2de.sh $SAVEDIR $GPUID
+```
 
 |           | NEWS      |  TED      |
 |-----------|-----------|-----------|
