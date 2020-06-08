@@ -1,5 +1,5 @@
 # Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing
-This repo contains our code and pre-processed distantly/weakly labeled data for paper 
+This repo contains the implementation for paper 
 [Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing](https://arxiv.org/pdf/1911.02692.pdf)
 
 ## Test Environment
